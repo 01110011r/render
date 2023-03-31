@@ -1,0 +1,19 @@
+.block {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding-bottom: 10px;
+    border: 2px solid rgb(68, 61, 61);
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+.box:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
